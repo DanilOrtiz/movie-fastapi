@@ -1,0 +1,16 @@
+activar el .\active que está en \script\active 
+Pip install fastapi uvicorn #usado para instalar fastapi
+python -m pip install --upgrade pip    #actualizar el pip
+uvicorn main:app --reload   #lo usamos para lanzar la aplicacion
+uvicorn main:app --reload --port 4000   #lo usamos para lanzar la aplicacion y le indicamos el puerto por el que queremos que escuche.
+
+pip install pyjwt #instalar libreria para token
+
+pip list #con esto vemos todas las librerias instaladas
+
+
+pip install SQLAlchemy   #instalar motor de base de datos
+
+
+
+
