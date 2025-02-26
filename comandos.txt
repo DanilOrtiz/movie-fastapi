@@ -11,6 +11,15 @@ pip list #con esto vemos todas las librerias instaladas
 
 pip install SQLAlchemy   #instalar motor de base de datos
 
+/*-----Inicio configurar para conectarse a GitHub-----*/
+git config --global user.name "DanilOrtiz" 
+git config --global user.email "danilorlandortiz@gmail.com"
+
+se ingresa a Git en Windows y se conecta con Github
+
+/*----Fin configurar para conectarse a GitHub*/
+
+py -m pip freeze > requirement.txt #esto para declarar todos los paquetes necesarios para correr este proyecto.
 
 
 
