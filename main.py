@@ -6,6 +6,7 @@ from bd.database import engine, Base
 from routers.movie import routerMovie
 from routers.users import login_user
 import os
+import uvicorn
 
 app = FastAPI(
     title = 'Aprendiendo FastAPi',
